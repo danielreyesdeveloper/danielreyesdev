@@ -17,6 +17,7 @@ const contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=523324309826"
               target="_blank"
+              rel="noopener noreferrer"
               className="contact-item text-green-400 hover:bg-green-500 hover:text-white"
             >
               <AiOutlineWhatsApp size="3em" />
@@ -27,6 +28,7 @@ const contact = () => {
             <a
               href="https://mail.google.com/"
               target="_blank"
+              rel="noopener noreferrer"
               className="contact-item text-rose-400 hover:bg-rose-500 hover:text-white"
             >
               <MdEmail size="3em" />
@@ -37,6 +39,7 @@ const contact = () => {
             <a
               href="https://www.linkedin.com/in/daniel-reyes-developer/"
               target="_blank"
+              rel="noopener noreferrer"
               className="contact-item text-cyan-400 hover:bg-cyan-500 hover:text-white"
             >
               <AiFillLinkedin size="3em" />
@@ -47,6 +50,7 @@ const contact = () => {
             <a
               href="https://github.com/danielreyesdeveloper"
               target="_blank"
+              rel="noopener noreferrer"
               className="contact-item text-fuchsia-400 hover:bg-fuchsia-500 hover:text-white"
             >
               <AiFillGithub size="3em" />
