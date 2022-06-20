@@ -12,6 +12,7 @@ const Works = () => {
           <a
             href="https://danielreyesdeveloper.github.io/anime-phrase-app/"
             target="_blank"
+            rel="noreferrer"
             className="cursor-pointer rounded-lg shadow-md work"
           >
             <Image
@@ -37,6 +38,7 @@ const Works = () => {
           <a
             href="https://instagram-clone-app-ten.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="cursor-pointer rounded-lg shadow-md work"
           >
             <Image
@@ -62,6 +64,7 @@ const Works = () => {
           <a
             href="https://emoji-app-five.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="cursor-pointer rounded-lg shadow-md work"
           >
             <Image
@@ -87,6 +90,7 @@ const Works = () => {
           <a
             href="https://netflix-clone-app-bay.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="cursor-pointer rounded-lg shadow-md work"
           >
             <Image
