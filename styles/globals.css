@@ -1,16 +1,46 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F9F9FF];
+  }
+  p{
+    @apply leading-7
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+/* custom classNames */
+@layer components {
+    .main-title {
+      @apply text-gray-800 text-3xl font-bold text-center mb-8;
+    }
+    .responsive-width {
+      @apply w-[90%] max-w-[1050px] m-auto;
+    }
+    .tech-item {
+      @apply bg-gray-800 text-white font-semibold h-20 flex justify-center items-center rounded-md
+    }
+    .contact-item {
+      @apply h-44 flex justify-center items-center rounded-t-md text-white bg-gray-800 border-b-2 border-gray-600 transition duration-300 ease-in-out hover:cursor-pointer
+    }
+    .contact-item-text {
+      @apply bg-gray-800 text-white font-semibold h-10 flex justify-center items-center rounded-b-md
+    }
+    .work {
+      @apply relative  
+    }
+    .overlay {
+      @apply absolute top-0 w-full h-full bg-gray-800 flex justify-center items-center flex-col text-xl text-white font-semibold rounded-lg opacity-0 transition duration-150 ease-in
+    }
+    .overlay:hover {
+      @apply opacity-90
+    }
+    .overlay .span {
+      @apply text-4xl
+    }
+    .work-title {
+      @apply font-semibold text-lg mt-3
+    }
+  }
