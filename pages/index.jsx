@@ -9,9 +9,9 @@ export default function Home() {
       <section className="border-b-2 border-slate-200 pb-8 mb-14">
         <h4 className="text-gray-600 font-bold text-2xl mb-4">About</h4>
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div clasName="">
+          <div>
             <p>
-              I'm a Software developer living in Jalisco Mexico. My training is
+              I am a Software developer living in Jalisco Mexico. My training is
               in web development, my primary interest is create functional
               software for the real world. I think that one of the essential
               goals of our generation is to understand how works technology.
