@@ -22,6 +22,7 @@ export default function Home() {
           </div>
           <div className="bg-fixed">
             <Image
+              priority
               layout="responsive"
               objectFit="cover"
               width={100}

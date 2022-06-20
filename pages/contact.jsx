@@ -4,8 +4,8 @@ import {
   AiOutlineWhatsApp,
   AiFillGithub,
   AiFillLinkedin,
-} from "react-icons/Ai";
-import { MdEmail } from "react-icons/Md";
+} from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 const contact = () => {
   return (

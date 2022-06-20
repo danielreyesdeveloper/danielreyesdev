@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 import MainTitle from "../components/MainTitle";
-import { HiOutlineExternalLink } from "react-icons/Hi";
+import { HiOutlineExternalLink } from "react-icons/hi";
 
 const Works = () => {
   return (
