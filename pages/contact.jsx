@@ -9,7 +9,7 @@ const contact = () => {
     <Layout title="Contact" description="Contact page">
       <MainTitle mainTitle="Contact" />
       <section>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <div>
             <a
               href="https://api.whatsapp.com/send?phone=523324309826"

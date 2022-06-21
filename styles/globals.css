@@ -14,7 +14,7 @@
 /* custom classNames */
 @layer components {
     .main-title {
-      @apply text-gray-800 text-3xl font-bold text-center mb-8;
+      @apply text-gray-800 text-3xl font-bold text-center mb-9;
     }
     .responsive-width {
       @apply w-[90%] max-w-[1050px] m-auto;
@@ -23,7 +23,7 @@
       @apply bg-gray-800 text-white font-semibold h-20 flex justify-center items-center rounded-md
     }
     .contact-item {
-      @apply h-44 flex justify-center items-center rounded-t-md text-white bg-gray-800 border-b-2 border-gray-600 transition duration-300 ease-in-out hover:cursor-pointer
+      @apply h-36 sm:h-44 flex justify-center items-center rounded-t-md text-white bg-gray-800 border-b-2 border-gray-600 transition duration-300 ease-in-out hover:cursor-pointer
     }
     .contact-item-text {
       @apply bg-gray-800 text-white font-semibold h-10 flex justify-center items-center rounded-b-md

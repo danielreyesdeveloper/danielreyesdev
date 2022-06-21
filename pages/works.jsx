@@ -9,107 +9,131 @@ const Works = () => {
       <MainTitle mainTitle="Works" />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
         <div>
-          <a
-            href="https://danielreyesdeveloper.github.io/anime-phrase-app/"
-            target="_blank"
-            rel="noreferrer"
-            className="cursor-pointer rounded-lg shadow-md work"
-          >
-            <Image
-              priority
-              layout="responsive"
-              objectFit="cover"
-              width={100}
-              height={75}
-              className="rounded-xl"
-              src="work1_jyhslr.png"
-              alt="Anime Clone App"
-            />
-            <div className="overlay">
-              <span className="span">
-                <HiOutlineExternalLink className="text-rose-500" size="45px" />
-              </span>
-            </div>
-          </a>
-          <h3 className="work-title">Anime Quotes</h3>
+          <div className="shadow-sm rounded-lg">
+            <a
+              href="https://danielreyesdeveloper.github.io/anime-phrase-app/"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer rounded-lg work"
+            >
+              <Image
+                priority
+                layout="responsive"
+                objectFit="cover"
+                width={100}
+                height={75}
+                className="rounded-xl"
+                src="work1_jyhslr.png"
+                alt="Anime Clone App"
+              />
+              <div className="overlay">
+                <span className="span">
+                  <HiOutlineExternalLink
+                    className="text-rose-500"
+                    size="45px"
+                  />
+                </span>
+              </div>
+            </a>
+          </div>
+          <h3 className="work-title text-center sm:text-left">Anime Quotes</h3>
         </div>
 
         <div>
-          <a
-            href="https://instagram-clone-app-ten.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="cursor-pointer rounded-lg shadow-md work"
-          >
-            <Image
-              priority
-              layout="responsive"
-              objectFit="cover"
-              width={100}
-              height={75}
-              className="rounded-xl"
-              src="work2_qjmzhn.png"
-              alt="Anime Clone App"
-            />
-            <div className="overlay">
-              <span className="span">
-                <HiOutlineExternalLink className="text-rose-500" size="45px" />
-              </span>
-            </div>
-          </a>
-          <h3 className="work-title">Instagram Clone App</h3>
+          <div className="shadow-sm rounded-lg">
+            <a
+              href="https://instagram-clone-app-ten.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer rounded-lg work"
+            >
+              <Image
+                priority
+                layout="responsive"
+                objectFit="cover"
+                width={100}
+                height={75}
+                className="rounded-xl"
+                src="work2_qjmzhn.png"
+                alt="Anime Clone App"
+              />
+              <div className="overlay">
+                <span className="span">
+                  <HiOutlineExternalLink
+                    className="text-rose-500"
+                    size="45px"
+                  />
+                </span>
+              </div>
+            </a>
+          </div>
+          <h3 className="work-title text-center sm:text-left">
+            Instagram Clone App
+          </h3>
         </div>
 
         <div>
-          <a
-            href="https://emoji-app-five.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="cursor-pointer rounded-lg shadow-md work"
-          >
-            <Image
-              priority
-              layout="responsive"
-              objectFit="cover"
-              width={100}
-              height={75}
-              className="rounded-xl"
-              src="work3_aliclg.png"
-              alt="Anime Clone App"
-            />
-            <div className="overlay">
-              <span className="span">
-                <HiOutlineExternalLink className="text-rose-500" size="45px" />
-              </span>
-            </div>
-          </a>
-          <h3 className="work-title">Emoji Info</h3>
+          <div className="shadow-sm rounded-lg">
+            <a
+              href="https://emoji-app-five.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer rounded-lg work"
+            >
+              <Image
+                priority
+                layout="responsive"
+                objectFit="cover"
+                width={100}
+                height={75}
+                className="rounded-xl"
+                src="work3_aliclg.png"
+                alt="Anime Clone App"
+              />
+              <div className="overlay">
+                <span className="span">
+                  <HiOutlineExternalLink
+                    className="text-rose-500"
+                    size="45px"
+                  />
+                </span>
+              </div>
+            </a>
+          </div>
+          <h3 className="work-title text-center sm:text-left">Emoji Info</h3>
         </div>
 
         <div>
-          <a
-            href="https://netflix-clone-app-bay.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="cursor-pointer rounded-lg shadow-md work"
-          >
-            <Image
-              priority
-              layout="responsive"
-              objectFit="cover"
-              width={100}
-              height={75}
-              className="rounded-xl"
-              src="work4_ntztky.png"
-              alt="Anime Clone App"
-            />
-            <div className="overlay">
-              <span className="span">
-                <HiOutlineExternalLink className="text-rose-500" size="45px" />
-              </span>
-            </div>
-          </a>
-          <h3 className="work-title">Netflix Clone App</h3>
+          <div className="shadow-sm rounded-lg">
+            <a
+              href="https://netflix-clone-app-bay.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer rounded-lg work"
+            >
+              <Image
+                priority
+                layout="responsive"
+                objectFit="cover"
+                width={100}
+                height={75}
+                className="rounded-lg"
+                src="work4_ntztky.png"
+                alt="Anime Clone App"
+              />
+              <div className="overlay">
+                <span className="span">
+                  <HiOutlineExternalLink
+                    className="text-rose-500"
+                    size="45px"
+                  />
+                </span>
+              </div>
+            </a>
+          </div>
+          <h3 className="work-title text-center sm:text-left">
+            Netflix Clone App
+          </h3>
         </div>
       </div>
     </Layout>
