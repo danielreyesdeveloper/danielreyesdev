@@ -22,7 +22,7 @@ const Works = () => {
               width={100}
               height={75}
               className="rounded-xl"
-              src="/../public/img/work1.png"
+              src="work1_jyhslr.png"
               alt="Anime Clone App"
             />
             <div className="overlay">
@@ -48,7 +48,7 @@ const Works = () => {
               width={100}
               height={75}
               className="rounded-xl"
-              src="/../public/img/work2.png"
+              src="work2_qjmzhn.png"
               alt="Anime Clone App"
             />
             <div className="overlay">
@@ -74,7 +74,7 @@ const Works = () => {
               width={100}
               height={75}
               className="rounded-xl"
-              src="/../public/img/work3.png"
+              src="work3_aliclg.png"
               alt="Anime Clone App"
             />
             <div className="overlay">
@@ -100,7 +100,7 @@ const Works = () => {
               width={100}
               height={75}
               className="rounded-xl"
-              src="/../public/img/work4.png"
+              src="work4_ntztky.png"
               alt="Anime Clone App"
             />
             <div className="overlay">

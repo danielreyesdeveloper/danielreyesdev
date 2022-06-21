@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <Layout title="Home" description="Home page" home>
+    <Layout title="Home" description="About me" home>
       <MainTitle mainTitle="Home" />
       <section className="border-b-2 border-slate-200 pb-8 mb-14">
         <h4 className="text-gray-600 font-bold text-2xl mb-4">About</h4>
@@ -20,21 +20,21 @@ export default function Home() {
               Download CV
             </button>
           </div>
-          <div className="bg-fixed">
+          <div>
             <Image
               priority
               layout="responsive"
               objectFit="cover"
               width={100}
               height={40}
-              src="/../public/img/code.jpg"
-              alt="demo"
+              src="code_zo8ddq.jpg"
+              alt="my code photo"
               className="rounded-md"
             />
           </div>
         </div>
       </section>
-      <section className="">
+      <section>
         <h4 className="text-gray-600 font-bold text-2xl mb-7">Skills</h4>
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-6">
           <div className="tech-item">HTML</div>

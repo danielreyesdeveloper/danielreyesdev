@@ -1,11 +1,8 @@
 import Layout from "../components/Layout";
 import MainTitle from "../components/MainTitle";
-import {
-  AiOutlineWhatsApp,
-  AiFillGithub,
-  AiFillLinkedin,
-} from "react-icons/ai";
-import { MdEmail } from "react-icons/md";
+import { AiOutlineWhatsApp, AiFillGithub } from "react-icons/ai";
+import { HiOutlineMail } from "react-icons/hi";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const contact = () => {
   return (
@@ -20,7 +17,7 @@ const contact = () => {
               rel="noreferrer"
               className="contact-item text-green-400 hover:bg-green-500 hover:text-white"
             >
-              <AiOutlineWhatsApp size="3em" />
+              <AiOutlineWhatsApp size="2.7em" />
             </a>
             <div className="contact-item-text">Call - Whatsapp</div>
           </div>
@@ -31,7 +28,7 @@ const contact = () => {
               rel="noreferrer"
               className="contact-item text-rose-400 hover:bg-rose-500 hover:text-white"
             >
-              <MdEmail size="3em" />
+              <HiOutlineMail size="2.7em" />
             </a>
             <div className="contact-item-text">Email</div>
           </div>
@@ -42,7 +39,7 @@ const contact = () => {
               rel="noreferrer"
               className="contact-item text-cyan-400 hover:bg-cyan-500 hover:text-white"
             >
-              <AiFillLinkedin size="3em" />
+              <FaLinkedinIn size="2.7em" />
             </a>
             <div className="contact-item-text">Linkedin</div>
           </div>
@@ -53,7 +50,7 @@ const contact = () => {
               rel="noreferrer"
               className="contact-item text-fuchsia-400 hover:bg-fuchsia-500 hover:text-white"
             >
-              <AiFillGithub size="3em" />
+              <AiFillGithub size="2.7em" />
             </a>
             <div className="contact-item-text">Github</div>
           </div>

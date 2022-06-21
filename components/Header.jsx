@@ -10,7 +10,7 @@ const Header = ({ home }) => {
         <div className="flex flex-col text-center text-white">
           <Image
             priority
-            src="/img/1.jpg"
+            src="profile_ai6xbk.jpg"
             objectFit="cover"
             className="rounded-full"
             height={144}
@@ -26,7 +26,7 @@ const Header = ({ home }) => {
             <a>
               <Image
                 priority
-                src="/img/1.jpg"
+                src="profile_ai6xbk.jpg"
                 objectFit="cover"
                 className="rounded-full border-8 border-white cursor-pointer hover:animate-pulse"
                 height={144}
