@@ -16,9 +16,11 @@ export default function Home() {
               software for the real world. I think that one of the essential
               goals of our generation is to understand how works technology.
             </p>
-            <button className="bg-rose-600 hover:bg-rose-700 transition-all ease-in duration-200 text-white font-semibold py-2 px-6 rounded-md mt-4">
-              Download CV
-            </button>
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="bg-rose-500 hover:bg-rose-700 transition-all ease-in duration-200 text-white font-semibold py-2 px-6 rounded-md mt-4">
+                Download CV
+              </button>
+            </a>
           </div>
           <div>
             <Image

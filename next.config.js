@@ -6,5 +6,17 @@ const nextConfig = {
     loader: 'cloudinary',
     path: 'https://res.cloudinary.com/dbnjogcsn/image/upload/',
   },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.pdf$/,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+        },
+      },
+    });
+    return config;
+  }
 }
 module.exports = nextConfig
