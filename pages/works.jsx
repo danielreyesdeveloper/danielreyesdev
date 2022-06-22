@@ -132,7 +132,8 @@ const Works = () => {
             </a>
           </div>
           <h3 className="work-title text-center sm:text-left">
-            Netflix Clone App
+            Netflix Clone App{" "}
+            <span className="font-normal">(It's not phishing)</span>
           </h3>
         </div>
       </div>
