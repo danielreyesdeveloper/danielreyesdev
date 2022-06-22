@@ -29,7 +29,7 @@ export default function Home() {
               objectFit="cover"
               width={100}
               height={40}
-              src="code_zo8ddq.jpg"
+              src="/code.jpg"
               alt="my code photo"
               className="rounded-md"
             />
